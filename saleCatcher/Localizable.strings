@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  saleCatcher
+
+  Created by Maja Zalewska on 25/09/2016.
+  Copyright © 2016 Maja Zalewska. All rights reserved.
+*/
+
+/* Local notification showing how many items are on sale */
+"SaleCatcher" = "SaleCatcher";
+"There are items on sale" = "Some of your selected items are now on sale!";

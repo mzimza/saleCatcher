@@ -14,6 +14,18 @@
 		EF4C8C511D4F895000A67709 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4C8C4F1D4F895000A67709 /* LaunchScreen.storyboard */; };
 		EF4C8C5C1D4F895000A67709 /* saleCatcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4C8C5B1D4F895000A67709 /* saleCatcherTests.swift */; };
 		EF4C8C671D4F895000A67709 /* saleCatcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4C8C661D4F895000A67709 /* saleCatcherUITests.swift */; };
+		EF4C8C751D4F8F1A00A67709 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = EF4C8C741D4F8F1A00A67709 /* Cartfile */; };
+		EF4C8C7C1D4F9F2800A67709 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4C8C7B1D4F9F2800A67709 /* ProductsViewController.swift */; };
+		EF4C8C7E1D4FA15400A67709 /* Crawler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4C8C7D1D4FA15400A67709 /* Crawler.swift */; };
+		EF61E4041D97CDEF008064C1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF61E4031D97CDEF008064C1 /* Localizable.strings */; };
+		EF9857DF1D81B6E1009B49F9 /* SwipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9857DE1D81B6E1009B49F9 /* SwipeTableViewCell.swift */; };
+		EF9B18571D859B7C003340D7 /* SelectedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9B18561D859B7C003340D7 /* SelectedTableViewCell.swift */; };
+		EFC4868A1D95172C00FC231D /* Kanna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC486891D95172C00FC231D /* Kanna.framework */; };
+		EFF5B40F1D5BCA370000A2C2 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF5B40E1D5BCA370000A2C2 /* Product.swift */; };
+		EFF5B4111D5CBF000000A2C2 /* SelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF5B4101D5CBF000000A2C2 /* SelectedViewController.swift */; };
+		EFF5B4151D5CC15A0000A2C2 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF5B4141D5CC15A0000A2C2 /* Storage.swift */; };
+		EFF5B4171D704C310000A2C2 /* ProductsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF5B4161D704C310000A2C2 /* ProductsTableViewCell.swift */; };
+		EFF5B4191D7883310000A2C2 /* StrikeThroughText.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF5B4181D7883310000A2C2 /* StrikeThroughText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +59,18 @@
 		EF4C8C621D4F895000A67709 /* saleCatcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = saleCatcherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4C8C661D4F895000A67709 /* saleCatcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saleCatcherUITests.swift; sourceTree = "<group>"; };
 		EF4C8C681D4F895000A67709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4C8C741D4F8F1A00A67709 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		EF4C8C7B1D4F9F2800A67709 /* ProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		EF4C8C7D1D4FA15400A67709 /* Crawler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crawler.swift; sourceTree = "<group>"; };
+		EF61E4031D97CDEF008064C1 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		EF9857DE1D81B6E1009B49F9 /* SwipeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeTableViewCell.swift; sourceTree = "<group>"; };
+		EF9B18561D859B7C003340D7 /* SelectedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedTableViewCell.swift; sourceTree = "<group>"; };
+		EFC486891D95172C00FC231D /* Kanna.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kanna.framework; path = Carthage/Build/iOS/Kanna.framework; sourceTree = "<group>"; };
+		EFF5B40E1D5BCA370000A2C2 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		EFF5B4101D5CBF000000A2C2 /* SelectedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedViewController.swift; sourceTree = "<group>"; };
+		EFF5B4141D5CC15A0000A2C2 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		EFF5B4161D704C310000A2C2 /* ProductsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableViewCell.swift; sourceTree = "<group>"; };
+		EFF5B4181D7883310000A2C2 /* StrikeThroughText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrikeThroughText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFC4868A1D95172C00FC231D /* Kanna.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +102,12 @@
 		EF4C8C3A1D4F894F00A67709 = {
 			isa = PBXGroup;
 			children = (
+				EF4C8C741D4F8F1A00A67709 /* Cartfile */,
 				EF4C8C451D4F895000A67709 /* saleCatcher */,
 				EF4C8C5A1D4F895000A67709 /* saleCatcherTests */,
 				EF4C8C651D4F895000A67709 /* saleCatcherUITests */,
 				EF4C8C441D4F894F00A67709 /* Products */,
+				EFC486881D95172C00FC231D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +125,21 @@
 			isa = PBXGroup;
 			children = (
 				EF4C8C461D4F895000A67709 /* AppDelegate.swift */,
+				EFF5B4141D5CC15A0000A2C2 /* Storage.swift */,
 				EF4C8C481D4F895000A67709 /* ViewController.swift */,
+				EF4C8C7B1D4F9F2800A67709 /* ProductsViewController.swift */,
+				EFF5B4161D704C310000A2C2 /* ProductsTableViewCell.swift */,
+				EF9B18561D859B7C003340D7 /* SelectedTableViewCell.swift */,
+				EF9857DE1D81B6E1009B49F9 /* SwipeTableViewCell.swift */,
+				EFF5B4181D7883310000A2C2 /* StrikeThroughText.swift */,
+				EFF5B4101D5CBF000000A2C2 /* SelectedViewController.swift */,
+				EFF5B40E1D5BCA370000A2C2 /* Product.swift */,
+				EF4C8C7D1D4FA15400A67709 /* Crawler.swift */,
 				EF4C8C4A1D4F895000A67709 /* Main.storyboard */,
 				EF4C8C4D1D4F895000A67709 /* Assets.xcassets */,
 				EF4C8C4F1D4F895000A67709 /* LaunchScreen.storyboard */,
 				EF4C8C521D4F895000A67709 /* Info.plist */,
+				EF61E4031D97CDEF008064C1 /* Localizable.strings */,
 			);
 			path = saleCatcher;
 			sourceTree = "<group>";
@@ -125,6 +162,14 @@
 			path = saleCatcherUITests;
 			sourceTree = "<group>";
 		};
+		EFC486881D95172C00FC231D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFC486891D95172C00FC231D /* Kanna.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +180,7 @@
 				EF4C8C3F1D4F894F00A67709 /* Sources */,
 				EF4C8C401D4F894F00A67709 /* Frameworks */,
 				EF4C8C411D4F894F00A67709 /* Resources */,
+				EF4C8C781D4F911A00A67709 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -188,21 +234,29 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Maja Zalewska";
 				TargetAttributes = {
 					EF4C8C421D4F894F00A67709 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = QASWA68JWR;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					EF4C8C561D4F895000A67709 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = QASWA68JWR;
+						LastSwiftMigration = 0800;
 						TestTargetID = EF4C8C421D4F894F00A67709;
 					};
 					EF4C8C611D4F895000A67709 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = QASWA68JWR;
+						LastSwiftMigration = 0800;
 						TestTargetID = EF4C8C421D4F894F00A67709;
 					};
 				};
@@ -232,8 +286,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF61E4041D97CDEF008064C1 /* Localizable.strings in Resources */,
 				EF4C8C511D4F895000A67709 /* LaunchScreen.storyboard in Resources */,
 				EF4C8C4E1D4F895000A67709 /* Assets.xcassets in Resources */,
+				EF4C8C751D4F8F1A00A67709 /* Cartfile in Resources */,
 				EF4C8C4C1D4F895000A67709 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,11 +310,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EF4C8C781D4F911A00A67709 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Kanna.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EF4C8C3F1D4F894F00A67709 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF4C8C7E1D4FA15400A67709 /* Crawler.swift in Sources */,
+				EFF5B4151D5CC15A0000A2C2 /* Storage.swift in Sources */,
+				EFF5B4191D7883310000A2C2 /* StrikeThroughText.swift in Sources */,
+				EFF5B4111D5CBF000000A2C2 /* SelectedViewController.swift in Sources */,
+				EF4C8C7C1D4F9F2800A67709 /* ProductsViewController.swift in Sources */,
+				EFF5B40F1D5BCA370000A2C2 /* Product.swift in Sources */,
+				EF9857DF1D81B6E1009B49F9 /* SwipeTableViewCell.swift in Sources */,
+				EFF5B4171D704C310000A2C2 /* ProductsTableViewCell.swift in Sources */,
+				EF9B18571D859B7C003340D7 /* SelectedTableViewCell.swift in Sources */,
 				EF4C8C491D4F895000A67709 /* ViewController.swift in Sources */,
 				EF4C8C471D4F895000A67709 /* AppDelegate.swift in Sources */,
 			);
@@ -329,8 +411,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -352,8 +436,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(SDKROOT)/usr/include/libxml2";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
+				NEW_SETTING = "";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -375,8 +461,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -392,9 +480,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(SDKROOT)/usr/include/libxml2";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				NEW_SETTING = "";
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -404,10 +495,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = QASWA68JWR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				"HEADER_SEARCH_PATHS[arch=*]" = "";
 				INFOPLIST_FILE = saleCatcher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mzimza.saleCatcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -415,10 +514,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = QASWA68JWR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				"HEADER_SEARCH_PATHS[arch=*]" = "";
 				INFOPLIST_FILE = saleCatcher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mzimza.saleCatcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -430,6 +537,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mzimza.saleCatcherTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/saleCatcher.app/saleCatcher";
 			};
 			name = Debug;
@@ -442,6 +550,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mzimza.saleCatcherTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/saleCatcher.app/saleCatcher";
 			};
 			name = Release;
@@ -453,6 +562,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mzimza.saleCatcherUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = saleCatcher;
 			};
 			name = Debug;
@@ -464,6 +574,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mzimza.saleCatcherUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = saleCatcher;
 			};
 			name = Release;
@@ -487,6 +598,7 @@
 				EF4C8C6D1D4F895000A67709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF4C8C6E1D4F895000A67709 /* Build configuration list for PBXNativeTarget "saleCatcherTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +607,7 @@
 				EF4C8C701D4F895000A67709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF4C8C711D4F895000A67709 /* Build configuration list for PBXNativeTarget "saleCatcherUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +616,7 @@
 				EF4C8C731D4F895000A67709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

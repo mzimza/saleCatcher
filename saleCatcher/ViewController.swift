@@ -8,8 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UITabBarController {
+    
+    override func viewDidAppear(_ animated: Bool) {
+      //  let pvc : ProductsViewController = ProductsViewController()
+      //  self.presentViewController(pvc, animated: false, completion: nil)
+      //  self.tabBar.backgroundColor
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
