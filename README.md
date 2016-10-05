@@ -10,7 +10,7 @@ Once the observed products is on sale, a notification is created.
 
 ######Things that still need to be done:
 - [x] Write a crawler to gather data from www.rossmann.pl
-- [x] Create two views with the simplest functionality
+- [x] Create two views with basic functionality
 - [x] Save downloaded data to memory
 - [ ] Enable background fetch
 - [ ] Create Search field
